@@ -139,6 +139,8 @@
 
 #partners{padding: 4em 0}
 
+#partners .responsive{height: 100px;}
+
 #partners .partner{
    padding: 1em;
    display: block;}
