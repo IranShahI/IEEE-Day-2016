@@ -99,6 +99,14 @@
    margin: .5em 0;
 }
 
+#lecturers .lec-details{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.428;
+   text-align: right;
+}
+
+
 #getTicket{padding: 4em 0}
 
 #getTicket #buttonWrapper{margin: 7em 0 5em}
