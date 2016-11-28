@@ -33,12 +33,15 @@ $(function(){
      rtl:true,
      responsive:{
         0:{
-            items:1
+            items: 3
         },
-        600:{
-            items:3
+        768:{
+            items: 5
         },
-        1000:{
+        992:{
+            items: 8
+        },
+        1200:{
             items: 9
         }
     }
@@ -47,7 +50,9 @@ $(function(){
 
 
 // ATV Image
-atvImg();
+if ( $(window).outerWidth() > 768 ) {
+   atvImg();
+}
 
 // countdown
 $(function() {
